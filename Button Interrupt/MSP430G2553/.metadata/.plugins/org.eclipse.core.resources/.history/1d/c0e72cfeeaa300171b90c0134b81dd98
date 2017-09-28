@@ -1,0 +1,44 @@
+#include <msp430.h>
+#define LED_0 BIT0
+#define LED_1 BIT6
+#define LED_OUT P1OUT
+#define LED_DIR P1DIR
+unsigned int x=0;
+unsigned int y=0;
+unsigned int b=0;
+unsigned int d=0;
+void main(void)
+{
+WDTCTL = WDTPW + WDTHOLD; // Stop watchdog timer
+LED_DIR |= (LED_0 + LED_1); // Set P1.0 and P1.6 to output direction
+LED_OUT &= ~(LED_0 + LED_1); // Set the LEDs off
+P1IE |= BIT3; // P1.3 interrupt enabled
+P1IFG &= ~BIT3; // P1.3 interrupt flag cleared
+P1REN |= BIT3;   // Enable Pull Up on (P1.3)
+CCR0=100;
+CCTL0 = CCIE;
+TACTL = TASSEL_2 + MC_2; // Set the timer A to SMCLCK, Continuous
+// Clear the timer and enable timer interrupt
+__enable_interrupt();
+__bis_SR_register(LPM0 + GIE); // LPM0 with interrupts enabled
+}
+#pragma vector=PORT1_VECTOR
+__interrupt void Port_1(void)
+{
+    ++b;
+}
+// Timer A0 interrupt service routine
+#pragma vector=TIMER0_A0_VECTOR
+__interrupt void Timer_A (void)
+{
+
+    if(++x==3)
+        P1OUT^=BIT0;
+    if(++x==15)
+        P1OUT^=BIT6;
+    if(++x>=30)
+    {x=0;
+    P1OUT^=BIT0;
+    P1OUT^=BIT6;
+    }
+}
