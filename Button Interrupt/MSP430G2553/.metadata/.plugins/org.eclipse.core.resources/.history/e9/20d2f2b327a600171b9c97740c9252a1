@@ -1,0 +1,37 @@
+#include <msp430.h>
+
+void delay_ms(unsigned int ms ){// Not really a milliseconds delay!
+unsigned int i;
+for (i = 0; i < ms; i++){
+__delay_cycles(500);
+}
+}
+void do_led( int led, int delay ) {
+    P1OUT ^= led;
+    delay_ms( delay );
+}
+void main(void) {
+    WDTCTL = WDTPW + WDTHOLD;       // Hold the WDT (WatchDog Timer)
+
+    P1DIR = BIT0;// Setup the appropriate output bits
+    P1OUT = BIT0;
+    P1DIR &= ~(BIT3);
+    P1REN |= BIT3;
+    P1OUT |= BIT3;
+    P1IE |= BIT3;
+    P1IES |= BIT3;
+    P1IFG &=~(BIT3);
+    _BIS_SR(LPM4_bits + GIE);
+
+    while(1)
+    {}
+    }
+    #pragma vector=PORT1_VECTOR//ISR Sub-routine
+    __interrupt void Port_1(void) {
+
+            do_led( BIT0, 2000);   // Turn on LED 2
+        P1IES |= BIT3;
+        P1IFG &= ~BIT3;
+        }
+
+

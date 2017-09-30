@@ -1,25 +1,36 @@
 #include <msp430.h>
-#define LED1 BIT0
-#define LED2 BIT6
+
+#define LED_0 BIT0
+#define LED_1 BIT6
+#define LED_OUT P1OUT
+#define LED_DIR P1DIR
 #define BUTTON BIT3
-volatile unsigned int i = 0;//to prevent optimization
+unsigned int blink = 0;
 void main(void)
 {
-WDTCTL=WDTPW | WDTHOLD;
-P1DIR |= (LED1+LED2);//
-P1OUT &= ~(LED1+LED2);
-P1REN |= BUTTON;
-P1IE |= BUTTON;
-P1IFG &= ~BUTTON;
-//__enable_interrupt();//enable all interrupts
-_BIS_SR(LPM4_bits+GIE);
+WDTCTL = WDTPW + WDTHOLD; // Stop watchdog timer
+LED_DIR |= (LED_0 + LED_1); // Set P1.0 and P1.6 to output direction
+LED_OUT &= ~(LED_0 + LED_1); // Set the LEDs off
+P1REN |= BUTTON; //Enables a puller-Resistor on the button-pin
+P1OUT |= BUTTON; //Writes a "1" to the portpin, tellling the resistor to pullup
+P1IE |= BUTTON; //Enables the selector-mask for generating interrupts on the relevant pin
+__enable_interrupt(); // Interrupts get enabled *here* - they were disabled thus far..
+for (;;)
+{
+if(blink > 0)
+{
+P1OUT ^= (LED_0 + LED_1); // Toggle P1.0 and P1.6 using exclusive-OR
+__delay_cycles(100000); // SW Delay of 10000 cycles at 1Mhz
 }
-
-//port1 interrupt service routine
+}
+}
+// Port 1 interrupt service routine
 #pragma vector=PORT1_VECTOR
 __interrupt void Port_1(void)
 {
-P1OUT ^= (LED1+LED2);
-P1IFG &= ~BUTTON;
+blink ^= 0x01;
+P1IFG &= ~BUTTON; // P1.3 IFG cleared
+LED_OUT &= ~(LED_0 + LED_1); // Clear the LEDs so they start in OFF state
 P1IES ^= BUTTON;
 }
+
