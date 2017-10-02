@@ -1,0 +1,699 @@
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 24: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: TimerA.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'TimerA.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 24: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: TimerA.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 24: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: TimerA.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 104: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 56 (col. 20): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 96 (col. 8): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 104 (col. 17): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: TimerA.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 22: remark #1540-D: (ULP 11.2) Assignment of higher bits (constants) to "P1OUT" within a loop. Recommend using lower 4 bits to allow use of constant generators
+"../main.c", line 23: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: TimerA.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 25: remark #1540-D: (ULP 11.2) Assignment of higher bits (constants) to "P1OUT" within a loop. Recommend using lower 4 bits to allow use of constant generators
+"../main.c", line 26: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: TimerA.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 25: remark #1540-D: (ULP 11.2) Assignment of higher bits (constants) to "P1OUT" within a loop. Recommend using lower 4 bits to allow use of constant generators
+"../main.c", line 26: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: TimerA.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 23: error #7: unrecognized token
+"../main.c", line 23: error #29: expected an expression
+"../main.c", line 23: error #7: unrecognized token
+"../main.c", line 24: error #7: unrecognized token
+"../main.c", line 24: error #7: unrecognized token
+"../main.c", line 25: error #7: unrecognized token
+"../main.c", line 25: error #29: expected an expression
+"../main.c", line 25: error #7: unrecognized token
+"../main.c", line 26: error #7: unrecognized token
+"../main.c", line 26: error #29: expected an expression
+"../main.c", line 26: error #7: unrecognized token
+"../main.c", line 27: error #7: unrecognized token
+"../main.c", line 27: error #7: unrecognized token
+"../main.c", line 28: error #7: unrecognized token
+"../main.c", line 28: error #7: unrecognized token
+"../main.c", line 29: error #7: unrecognized token
+"../main.c", line 29: error #7: unrecognized token
+"../main.c", line 29: error #7: unrecognized token
+"../main.c", line 29: error #7: unrecognized token
+"../main.c", line 30: error #7: unrecognized token
+"../main.c", line 30: error #7: unrecognized token
+"../main.c", line 30: error #7: unrecognized token
+"../main.c", line 30: error #7: unrecognized token
+"../main.c", line 31: error #7: unrecognized token
+"../main.c", line 31: error #7: unrecognized token
+"../main.c", line 31: error #7: unrecognized token
+"../main.c", line 31: error #7: unrecognized token
+"../main.c", line 32: error #7: unrecognized token
+"../main.c", line 32: error #7: unrecognized token
+"../main.c", line 33: warning #12-D: parsing restarts here after previous syntax error
+"../main.c", line 33: error #66: expected a ";"
+"../main.c", line 34: error #20: identifier "Using" is undefined
+"../main.c", line 34: error #66: expected a ";"
+"../main.c", line 35: error #7: unrecognized token
+"../main.c", line 35: error #7: unrecognized token
+"../main.c", line 35: error #7: unrecognized token
+"../main.c", line 35: error #7: unrecognized token
+"../main.c", line 55: error #7: unrecognized token
+"../main.c", line 55: error #7: unrecognized token
+"../main.c", line 56: error #7: unrecognized token
+"../main.c", line 56: error #7: unrecognized token
+"../main.c", line 57: error #7: unrecognized token
+"../main.c", line 57: error #7: unrecognized token
+"../main.c", line 58: error #7: unrecognized token
+"../main.c", line 58: error #7: unrecognized token
+"../main.c", line 59: error #7: unrecognized token
+"../main.c", line 59: error #7: unrecognized token
+"../main.c", line 60: error #7: unrecognized token
+"../main.c", line 60: error #7: unrecognized token
+"../main.c", line 61: error #7: unrecognized token
+"../main.c", line 61: error #7: unrecognized token
+"../main.c", line 61: error #7: unrecognized token
+"../main.c", line 61: error #7: unrecognized token
+"../main.c", line 62: error #7: unrecognized token
+"../main.c", line 62: error #7: unrecognized token
+"../main.c", line 75: error #7: unrecognized token
+"../main.c", line 75: error #7: unrecognized token
+"../main.c", line 76: error #7: unrecognized token
+"../main.c", line 76: error #7: unrecognized token
+"../main.c", line 77: error #7: unrecognized token
+"../main.c", line 77: error #7: unrecognized token
+"../main.c", line 78: error #7: unrecognized token
+"../main.c", line 78: error #7: unrecognized token
+"../main.c", line 89: error #609: this pragma must immediately precede a declaration
+"../main.c", line 92: error #7: unrecognized token
+"../main.c", line 92: error #7: unrecognized token
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+65 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 19: error #7: unrecognized token
+"../main.c", line 19: error #29: expected an expression
+"../main.c", line 19: error #7: unrecognized token
+"../main.c", line 20: error #7: unrecognized token
+"../main.c", line 20: error #7: unrecognized token
+"../main.c", line 21: error #7: unrecognized token
+"../main.c", line 21: error #29: expected an expression
+"../main.c", line 21: error #7: unrecognized token
+"../main.c", line 22: error #7: unrecognized token
+"../main.c", line 22: error #29: expected an expression
+"../main.c", line 22: error #7: unrecognized token
+"../main.c", line 23: error #7: unrecognized token
+"../main.c", line 23: error #7: unrecognized token
+"../main.c", line 24: error #7: unrecognized token
+"../main.c", line 24: error #7: unrecognized token
+"../main.c", line 25: error #7: unrecognized token
+"../main.c", line 25: error #7: unrecognized token
+"../main.c", line 25: error #7: unrecognized token
+"../main.c", line 25: error #7: unrecognized token
+"../main.c", line 26: error #7: unrecognized token
+"../main.c", line 26: error #7: unrecognized token
+"../main.c", line 26: error #7: unrecognized token
+"../main.c", line 26: error #7: unrecognized token
+"../main.c", line 27: error #7: unrecognized token
+"../main.c", line 27: error #7: unrecognized token
+"../main.c", line 27: error #7: unrecognized token
+"../main.c", line 27: error #7: unrecognized token
+"../main.c", line 28: error #7: unrecognized token
+"../main.c", line 28: error #7: unrecognized token
+"../main.c", line 29: warning #12-D: parsing restarts here after previous syntax error
+"../main.c", line 29: error #66: expected a ";"
+"../main.c", line 30: error #20: identifier "Using" is undefined
+"../main.c", line 30: error #66: expected a ";"
+"../main.c", line 31: error #7: unrecognized token
+"../main.c", line 31: error #7: unrecognized token
+"../main.c", line 31: error #7: unrecognized token
+"../main.c", line 31: error #7: unrecognized token
+"../main.c", line 51: error #7: unrecognized token
+"../main.c", line 51: error #7: unrecognized token
+"../main.c", line 52: error #7: unrecognized token
+"../main.c", line 52: error #7: unrecognized token
+"../main.c", line 53: error #7: unrecognized token
+"../main.c", line 53: error #7: unrecognized token
+"../main.c", line 54: error #7: unrecognized token
+"../main.c", line 54: error #7: unrecognized token
+"../main.c", line 55: error #7: unrecognized token
+"../main.c", line 55: error #7: unrecognized token
+"../main.c", line 56: error #7: unrecognized token
+"../main.c", line 56: error #7: unrecognized token
+"../main.c", line 57: error #7: unrecognized token
+"../main.c", line 57: error #7: unrecognized token
+"../main.c", line 57: error #7: unrecognized token
+"../main.c", line 57: error #7: unrecognized token
+"../main.c", line 58: error #7: unrecognized token
+"../main.c", line 58: error #7: unrecognized token
+"../main.c", line 71: error #7: unrecognized token
+"../main.c", line 71: error #7: unrecognized token
+"../main.c", line 72: error #7: unrecognized token
+"../main.c", line 72: error #7: unrecognized token
+"../main.c", line 73: error #7: unrecognized token
+"../main.c", line 73: error #7: unrecognized token
+"../main.c", line 74: error #7: unrecognized token
+"../main.c", line 74: error #7: unrecognized token
+"../main.c", line 85: error #609: this pragma must immediately precede a declaration
+"../main.c", line 88: error #7: unrecognized token
+"../main.c", line 88: error #7: unrecognized token
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+65 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 20: error #7: unrecognized token
+"../main.c", line 20: error #29: expected an expression
+"../main.c", line 20: error #7: unrecognized token
+"../main.c", line 21: error #7: unrecognized token
+"../main.c", line 21: error #7: unrecognized token
+"../main.c", line 22: error #7: unrecognized token
+"../main.c", line 22: error #29: expected an expression
+"../main.c", line 22: error #7: unrecognized token
+"../main.c", line 23: error #7: unrecognized token
+"../main.c", line 23: error #29: expected an expression
+"../main.c", line 23: error #7: unrecognized token
+"../main.c", line 24: error #7: unrecognized token
+"../main.c", line 24: error #29: expected an expression
+"../main.c", line 24: error #7: unrecognized token
+"../main.c", line 25: error #7: unrecognized token
+"../main.c", line 25: error #7: unrecognized token
+"../main.c", line 26: error #7: unrecognized token
+"../main.c", line 26: error #7: unrecognized token
+"../main.c", line 26: error #7: unrecognized token
+"../main.c", line 26: error #7: unrecognized token
+"../main.c", line 27: error #7: unrecognized token
+"../main.c", line 27: error #7: unrecognized token
+"../main.c", line 28: warning #12-D: parsing restarts here after previous syntax error
+"../main.c", line 28: error #66: expected a ";"
+"../main.c", line 40: error #7: unrecognized token
+"../main.c", line 40: error #29: expected an expression
+"../main.c", line 40: error #7: unrecognized token
+"../main.c", line 41: error #7: unrecognized token
+"../main.c", line 41: error #29: expected an expression
+"../main.c", line 41: error #7: unrecognized token
+"../main.c", line 42: error #7: unrecognized token
+"../main.c", line 42: error #29: expected an expression
+"../main.c", line 42: error #7: unrecognized token
+"../main.c", line 43: error #7: unrecognized token
+"../main.c", line 43: error #29: expected an expression
+"../main.c", line 43: error #7: unrecognized token
+"../main.c", line 57: error #7: unrecognized token
+"../main.c", line 57: error #29: expected an expression
+"../main.c", line 57: error #7: unrecognized token
+38 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 23: warning #225-D: function "ConfigTimerA" declared implicitly
+"../main.c", line 38: warning #161-D: declaration is incompatible with previous "ConfigTimerA" (declared at line 23)
+"../main.c", line 40: error #7: unrecognized token
+"../main.c", line 40: error #29: expected an expression
+"../main.c", line 40: error #7: unrecognized token
+"../main.c", line 41: error #7: unrecognized token
+"../main.c", line 41: error #29: expected an expression
+"../main.c", line 41: error #7: unrecognized token
+"../main.c", line 42: error #7: unrecognized token
+"../main.c", line 42: error #29: expected an expression
+"../main.c", line 42: error #7: unrecognized token
+"../main.c", line 43: error #7: unrecognized token
+"../main.c", line 43: error #29: expected an expression
+"../main.c", line 43: error #7: unrecognized token
+"../main.c", line 57: error #7: unrecognized token
+"../main.c", line 57: error #29: expected an expression
+"../main.c", line 57: error #7: unrecognized token
+15 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 23: warning #225-D: function "ConfigTimerA" declared implicitly
+"../main.c", line 38: warning #161-D: declaration is incompatible with previous "ConfigTimerA" (declared at line 23)
+"../main.c", line 57: error #7: unrecognized token
+"../main.c", line 57: error #29: expected an expression
+"../main.c", line 57: error #7: unrecognized token
+3 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 23: warning #225-D: function "ConfigTimerA" declared implicitly
+"../main.c", line 38: warning #161-D: declaration is incompatible with previous "ConfigTimerA" (declared at line 23)
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+
+ undefined first referenced                                                                               
+  symbol       in file                                                                                    
+ --------- ----------------                                                                               
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+ main      D:\Embedded\ccsv7\tools\compiler\ti-cgt-msp430_16.9.3.LTS\lib\rts430_eabi.lib<boot_special.obj>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+
+>> Compilation failure
+makefile:141: recipe for target 'TimerA.out' failed
+
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "TimerA.out" not built
+gmake[1]: *** [TimerA.out] Error 1
+makefile:137: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+
+ undefined first referenced                                                                               
+  symbol       in file                                                                                    
+ --------- ----------------                                                                               
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+ main      D:\Embedded\ccsv7\tools\compiler\ti-cgt-msp430_16.9.3.LTS\lib\rts430_eabi.lib<boot_special.obj>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+
+>> Compilation failure
+makefile:141: recipe for target 'TimerA.out' failed
+
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "TimerA.out" not built
+gmake[1]: *** [TimerA.out] Error 1
+gmake: *** [all] Error 2
+makefile:137: recipe for target 'all' failed
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+
+ undefined first referenced                                                                               
+  symbol       in file                                                                                    
+ --------- ----------------                                                                               
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+ main      D:\Embedded\ccsv7\tools\compiler\ti-cgt-msp430_16.9.3.LTS\lib\rts430_eabi.lib<boot_special.obj>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+
+>> Compilation failure
+makefile:141: recipe for target 'TimerA.out' failed
+
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "TimerA.out" not built
+gmake[1]: *** [TimerA.out] Error 1
+gmake: *** [all] Error 2
+makefile:137: recipe for target 'all' failed
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: TimerA.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: TimerA.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: TimerA.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 12: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 15: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 17: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 23: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 24: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 44: remark #1538-D: (ULP 10.1) ISR Port_1 calls function blink. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 52: error #20: identifier "LED_POUT" is undefined
+"../main.c", line 52: error #20: identifier "LED_PIN" is undefined
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 33: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 18 (col. 20): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 29 (col. 8): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 33 (col. 17): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: TimerA.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 30: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 18 (col. 20): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 29 (col. 8): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 30 (col. 17): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: TimerA.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 12: error #612: this kind of pragma may not be used here
+"../main.c", line 13: error #68: expected a "}"
+"../main.c", line 19: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/TIMER A Blink/MSP430G2553/TimerA" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 19: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 9 (col. 20): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 18 (col. 8): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 19 (col. 17): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+'Finished building: ../main.c'
+' '
+'Building target: TimerA.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"TimerA.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TimerA_linkInfo.xml" --use_hw_mpy=none --rom_model -o "TimerA.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: TimerA.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TimerA ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'TimerA.out' is up to date.
+
+**** Build Finished ****

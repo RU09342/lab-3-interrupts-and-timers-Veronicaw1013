@@ -1,0 +1,34 @@
+#include <msp430.h>
+/*
+* DEFINE LED PORT & PIN
+*/
+#define LED_PDIR P1DIR
+#define LED_POUT P1OUT
+#define LED_PIN BIT0
+
+void ConfigTimerA(unsigned int delayCycles)
+{
+TACCTL0 |= CCIE; //Enable Interrupts on Timer
+TACCR0 = delayCycles; //Number of cycles in the timer
+TACTL |= TASSEL_1; //Use ACLK as source for timer
+TACTL |= MC_1; //Use UP mode timer
+}
+
+int main(void)
+{
+//Configure the LED
+LED_PDIR |= LED_PIN; //Set P1.0 as an Output pin
+LED_POUT &= ~LED_PIN; //Set P1.0 LOW (turn LED off)
+ConfigTimerA(10000); //Configure the timer
+while (1)
+{
+_bis_SR_register(LPM3_bits + GIE); //Enter Low Power Mode 3 with interrupts
+}
+}
+
+#pragma vector=TIMER0_A0_VECTOR
+__interrupt void Timer_A0(void)
+{
+LED_POUT ^= LED_PIN; //Toggle the LED
+//When we exit the interrupt routine we return to Low Power Mode
+}

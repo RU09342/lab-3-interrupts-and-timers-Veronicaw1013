@@ -1,0 +1,32 @@
+#include <msp430.h> 
+
+unsigned int timerCount = 0;
+void main(void)
+{
+    WDTCTL = WDTPW + WDTHOLD;    // disable watchdog
+    P1DIR |= BIT0; // Set P1.0 and P1.6 to output direction
+    P1OUT &= ~BIT0; // Set the LEDs off;    // P1.6 out to relay (LED)
+        //BCSCTL1 = CALBC1_1MHZ;    // Set DCO to calibrated 1 MHz.
+        //DCOCTL = CALDCO_1MHZ;
+    TA0CCR0 = (32768 -1);
+    TA0CCTL0 = (CCIE + OUTMOD_6);        // Enable interrupts for CCR0.
+    TA0CTL = (TASSEL_0 + MC_1 + ID_3 + TACLR);  // SMCLK, div 8, up mode,
+                                                 // clear timer
+    __enable_interrupt();
+    for(;;)
+    {    // Do nothing while waiting for interrupts.  This would be an
+    }    // an ideal place to use low power modes!
+}
+    /*  Interrupt Service Routines  */
+#pragma vector = TA0IV_TAIFG
+__interrupt void Timer0_A5_ISR(void)
+{
+    timerCount = (timerCount + 1) % 3;
+    if (timerCount == 0)
+    {
+        P1OUT ^=BIT0;
+    }
+} // CCR0_ISR
+
+
+

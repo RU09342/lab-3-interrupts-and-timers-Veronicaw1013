@@ -1,0 +1,94 @@
+#include <msp430.h>
+
+#define LED_0 BIT0
+#define LED_1 BIT6
+#define LED_OUT P1OUT
+#include <msp430.h>
+
+/*
+* DEFINE LED PORT & PIN
+*/
+#define LED_PDIR P1DIR
+#define LED_POUT P1OUT
+#define LED_PIN BIT0
+/*****************************************************************
+*
+* FUNCTION: blinkDelay
+*
+* PURPOSE: Blink an LED using a Delay loop
+*
+*****************************************************************/
+void blinkDelay()
+{
+    //Configure the LED
+    LED_PDIR |= LED_PIN; //Set P1.0 as an Output pin
+    LED_POUT &= ~LED_PIN; //Set P1.0 LOW (turn LED off)
+    //Infinite loop to blink the LED
+    while (1)
+    {
+        LED_POUT ^= LED_PIN; //Toggle the LED, using XOR operator
+        //Delay for 100000 cycles – the CPU is occupied during this
+        __delay_cycles(100000);
+    }
+}
+Using the Timer
+Let’s give the CPU a rest (and save a whole load of power) by using the timer. In this example, we’ll use the Up Mode of the timer as it’s best suited to what we need to do. Take a look at the example below (we’ll go through it in more detail afterwards):
+#include <msp430.h>
+/*
+* DEFINE LED PORT & PIN
+*/
+#define LED_PDIR P1DIR
+#define LED_POUT P1OUT
+#define LED_PIN BIT0
+
+/*****************************************************************
+*
+* FUNCTION: blinkInterrupt
+*
+* PURPOSE: Blink an LED using TimerA and interrupts
+*
+* PARAMETERS: none
+*
+*****************************************************************/
+void blinkInterrupt()
+{
+    //Configure the LED
+    LED_PDIR |= LED_PIN; //Set P1.0 as an Output pin
+    LED_POUT &= ~LED_PIN; //Set P1.0 LOW (turn LED off)
+    ConfigTimerA(1000); //Configure the timer
+    while (1)
+    {
+        _bis_SR_register(LPM3_bits + GIE); //Enter Low Power Mode 3 with interrupts
+    }
+}
+/*****************************************************************
+*
+* FUNCTION: configTimerA
+*
+* PURPOSE: Configure the TimerA
+*
+* PARAMETERS: delayCycles: number of clock cycles to delay
+*
+*****************************************************************/
+void ConfigTimerA(unsigned int delayCycles)
+{
+    TACCTL0 |= CCIE; //Enable Interrupts on Timer
+    TACCR0 = delayCycles; //Number of cycles in the timer
+    TACTL |= TASSEL_1; //Use ACLK as source for timer
+    TACTL |= MC_1; //Use UP mode timer
+}
+/*****************************************************************
+*
+* FUNCTION: Timer_A0
+*
+* PURPOSE: Interrupt Handler to service the TimerA0 interrupt
+*
+* PARAMETERS: none
+*
+*****************************************************************/
+#pragma vector=TIMER0_A0_VECTOR
+__interrupt void Timer_A0(void)
+{
+    LED_POUT ^= LED_PIN; //Toggle the LED
+//When we exit the interrupt routine we return to Low Power Mode
+}
