@@ -1,0 +1,45 @@
+#include <msp430.h>
+
+#define BUTTON BIT3
+#define LED1 BIT0
+#define LED2 BIT6
+int main (void)
+{
+    // disable the watchdog timer
+    WDTCTL = WDTPW + WDTHOLD;
+
+    // interrupt from high to low
+    P1IES |= BUTTON;
+    // clear the interrupt flag
+    P1IFG &= ~BUTTON;
+    // enable interrupt on BIT3
+    P1IE |= BUTTON;
+
+    P1OUT = 0;
+    P1OUT |= LED2;
+    // set bit0, bit6 as output
+    P1DIR |= LED1;
+    P1DIR |= LED2;
+
+    // enable interrupts
+    __enable_interrupts();
+    _BIS_SR(GIE);
+
+for(;;){}
+}
+// interrupt for PORT1
+#pragma vector=PORT1_VECTOR
+__interrupt void Port_1(void)
+ {
+    // check if BIT3 button has set flag
+    switch (P1IFG & BUTTON) {
+        case BUTTON:
+            P1IFG = P1IFG & ~BUTTON;
+
+            // flip the LED output
+            P1OUT ^= LED1;
+            P1OUT ^= LED2;
+            break;
+        default:
+            break;
+    }
