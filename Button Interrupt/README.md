@@ -11,9 +11,13 @@ Msp430.h is a general header file that includes all the header files for boards 
 The inputs and outputs for each board were defined and renamed for easier coding. The different cases for each board can be seen in the "Specific Code for Each Board" section.
 
 #define LED_0 BIT0 //rename variables for easier coding
+
 #define LED_1 BIT7
+
 #define LED_OUT P1OUT
+
 #define LED_DIR P1DIR
+
 #define BUTTON BIT1
 
 An integer "blink" was created and initialized as zero so it could be used within the for loops in the main section of the code. 
@@ -23,12 +27,19 @@ unsigned int blink = 0;
 In the main function the watchdog timer must be turned off for the five boards, and all of the inputs and outputs were declared with their proper PxOUT (when I/O is configured to output mode: 0b = output is low, 1b = output is high). PxOUT can also set whether the resistor is a pullup (1) or pulldown (0) resistor and PxDIR ("0" sets an input and "1" sets an output) values. PxREN (pullup/pulldown resistor enabled) and PxIE (interrupt enable) also had to be used as the button will be used for the interrupts. The inputs and outputs for each board can be seen later. 
 
 WDTCTL = WDTPW | WDTHOLD; // Stop watchdog timer
+
 LED_DIR |= LED_0; // Set P1.0 and P4.7 to outputs
+
 P4DIR |= LED_1;
+
 LED_OUT &= ~(LED_0); // Set the LEDs off
+
 P4OUT &= ~LED_1;
+
 P2REN |= BUTTON; //Enables pullup or pulldown resistor
+
 P2OUT |= BUTTON; //pullup resistor selected
+
 P2IE |= BUTTON; //enable interrupt for pin 2.1
 
 For the MSP430FR2311, MSP430FR5994, and MSP430FR6989, the GPIO power-on default high-impedance mode must also be disabled within the main function.
@@ -39,15 +50,23 @@ PM5CTL0 &= ~LOCKLPM5;
 An infinite loop was also created so the code within the loop will run forever. 
 
 for(;;)
+
 {
+
 if(blink > 0) //activated when the button is pressed
+
 {
+
 P1OUT ^= (LED_0); // Toggle P1.0 and P4.7
+
 P4OUT ^= (LED_1);
 
 __delay_cycles(100000); // sets delay
+
 }
+
 }
+
 }
 
 When blink is changed to "1" in the interrupt, this code will run. It toggles the LEDs at a specified rate. 
@@ -55,14 +74,21 @@ When blink is changed to "1" in the interrupt, this code will run. It toggles th
 The interrupt is triggered when the button is pressed. Once it is pressed, blink is set to "1", the flag is cleared, the LEDs are turned off, and the interrupt is set to trigger on the rising edge. When the button is released, the flag bit is set to "1" again, triggering the interrupt. This time blink is set to "0", the flag bit is set to "0", the LEDs are turned off, and the trigger is set to falling edge again. The interrupt will not be triggered again until the button is pressed. 
 
 #pragma vector=PORT2_VECTOR //start interrupt
+
 __interrupt void Port_2(void)
+
 {
+
 blink ^= 0x01; //toggle blink to 1, goes to for loop
+
 P2IFG &= ~BUTTON; // clear flag
+
 LED_OUT &= ~(LED_0); // turn LEDs off
+
 P4OUT &= ~(LED_1);
 
 P2IES ^= BUTTON; //toggle flag to rising edge
+
 }
 
 
