@@ -16,7 +16,7 @@ LED_OUT &= ~(LED_0); // Set the LEDs off
 P2OUT &= ~LED_1;
 P1REN |= BUTTON; //Enables pullup or pulldown resistor
 P1OUT |= BUTTON; //pullup resistor selected
-P1IE |= BUTTON; //enable interrupt for pin 5.6
+P1IE |= BUTTON; //enable interrupt for pin 1.1
 __enable_interrupt(); // interrupts are enabled
 for (;;)//infinite loop
 {
