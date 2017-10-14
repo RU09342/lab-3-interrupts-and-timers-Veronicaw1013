@@ -1,30 +1,131 @@
 # Button Interrupt
-Last lab you were introduced to the idea of "Polling" where in you would constantly check the status of the P1IN register to see if something has changed. While your code may have worked, it ends up spending a ton of time just checking something that has not changed. What we can do instead is use another two registers available to us from the GPIO peripheral, P1IE and P1IES, to allow our processor to just chill out and wait until something happens to act upon it. Without spending too much space on this README with explanations, what makes these interrupts tick is the following code:
+## Veronica Williams, October 14, 2017, Code Updated: October 11, 2017 
+Two LEDs were toggled on the boards using a button interrupt. 
 
-'''c
-#pragma vector=PORT1_VECTOR
-__interrupt void Port_1(void)
+
+## Libraries for the MSP430
+Msp430.h is a general header file that includes all the header files for boards in the MSP430 family. When creating a new project there is a pull down menu that will allow you to choose which board you are actually using. 
+
+## General Format
+
+The inputs and outputs for each board were defined and renamed for easier coding. The different cases for each board can be seen in the "Specific Code for Each Board" section.
+
+#define LED_0 BIT0 //rename variables for easier coding
+#define LED_1 BIT7
+#define LED_OUT P1OUT
+#define LED_DIR P1DIR
+#define BUTTON BIT1
+
+An integer "blink" was created and initialized as zero so it could be used within the for loops in the main section of the code. 
+
+unsigned int blink = 0;
+
+In the main function the watchdog timer must be turned off for the five boards, and all of the inputs and outputs were declared with their proper PxOUT (when I/O is configured to output mode: 0b = output is low, 1b = output is high). PxOUT can also set whether the resistor is a pullup (1) or pulldown (0) resistor and PxDIR ("0" sets an input and "1" sets an output) values. PxREN (pullup/pulldown resistor enabled) and PxIE (interrupt enable) also had to be used as the button will be used for the interrupts. The inputs and outputs for each board can be seen later. 
+
+WDTCTL = WDTPW | WDTHOLD; // Stop watchdog timer
+LED_DIR |= LED_0; // Set P1.0 and P4.7 to outputs
+P4DIR |= LED_1;
+LED_OUT &= ~(LED_0); // Set the LEDs off
+P4OUT &= ~LED_1;
+P2REN |= BUTTON; //Enables pullup or pulldown resistor
+P2OUT |= BUTTON; //pullup resistor selected
+P2IE |= BUTTON; //enable interrupt for pin 2.1
+
+For the MSP430FR2311, MSP430FR5994, and MSP430FR6989, the GPIO power-on default high-impedance mode must also be disabled within the main function.
+
+PM5CTL0 &= ~LOCKLPM5;
+
+ 
+An infinite loop was also created so the code within the loop will run forever. 
+
+for(;;)
 {
+if(blink > 0) //activated when the button is pressed
+{
+P1OUT ^= (LED_0); // Toggle P1.0 and P4.7
+P4OUT ^= (LED_1);
+
+__delay_cycles(100000); // sets delay
 }
-'''
+}
+}
 
-While you still need to initialize the Ports to be interrupt enabled and clear the flags, this "Pragma Vector" tells the compiler that when a particular interrupt occurs, run this code. 
+When blink is changed to "1" in the interrupt, this code will run. It toggles the LEDs at a specified rate. 
 
-## A word of caution...
-While you might be willing to just jump straight in and begin using example code you may find, I would seriously take a few minutes and find a few good videos or tutorials to help understand exactly what is happening in the processor. I implore you to do this since you will inevitably have issues in the future which are solved by not understanding how the processor processes interrupts. A prime example is when I once tried implementing UART and I did not realize that you had to clear a flag or else my code would get stuck in an infinite loop. Hours of my life are now gone thanks to me at the time not understanding how interrupts worked with the peripherals I was utilizing. A few resources I have used in the past include:
-* https://youtu.be/GR8S2XT47eI?t=1334
-* http://processors.wiki.ti.com/index.php/MSP430_LaunchPad_Interrupt_vs_Polling
-* http://www.simplyembedded.org/tutorials/msp430-interrupts/
+The interrupt is triggered when the button is pressed. Once it is pressed, blink is set to "1", the flag is cleared, the LEDs are turned off, and the interrupt is set to trigger on the rising edge. When the button is released, the flag bit is set to "1" again, triggering the interrupt. This time blink is set to "0", the flag bit is set to "0", the LEDs are turned off, and the trigger is set to falling edge again. The interrupt will not be triggered again until the button is pressed. 
 
-## Task
-Your goal for this part of the lab is to replicate your button code from Lab 2, where the LED should change states only when the button is pressed. This can be extended to include behaviors such as only have the LED on when the button is depressed, or have the LED blink one color when pressed and another when it is let go. Another behavior extends from the second lab which is speed control based on the button presses. For example, have the rate of the LED cycle between a "low", "Medium", and "High" rate of speed.
+#pragma vector=PORT2_VECTOR //start interrupt
+__interrupt void Port_2(void)
+{
+blink ^= 0x01; //toggle blink to 1, goes to for loop
+P2IFG &= ~BUTTON; // clear flag
+LED_OUT &= ~(LED_0); // turn LEDs off
+P4OUT &= ~(LED_1);
 
-## Extra Work 
-### Binary Counter/Shift Register
-Either use a function generator, another processor, or a button to control your microcontroller as an 8-bit binary counter using 8 LEDs to indicate the current status of the counter.
+P2IES ^= BUTTON; //toggle flag to rising edge
+}
 
-### Multiple Buttons
-Come up with a behavior of your own that incorporates needing to use two buttons or more and these two buttons must be implemented using interrupts.
 
-### (Recommended) Energy Trace
-Using the built in EnergyTrace(R) software in CCS and the corresponding supporting hardware on the MSP430 development platforms, analyze the power consumption between the button based blink code you wrote last week versus this week. What can you do to decrease the amount of power used within the microcontroller in this code? Take a look at the MSP430FR5994 and the built in SuperCap and see how long your previous code and the new code lasts. For a quick intro to EnergyTrace(R), take a look at this video: https://youtu.be/HqeDthLrcsg
+## Specific Code for Each Board
+### MSP430G2553 where pins 1.6 and 1.0 are LEDs, pin 1.3 is a button-
+
+Configure LEDs as outputs: P1DIR |= BIT6; P1DIR |= BIT0; 
+
+Start with LEDs off: P1OUT &= !(BIT0 and BIT6);
+
+Configure button as input: P1DIR &= ~BIT3; P1REN |= BIT3; P1OUT |= BIT3;
+
+Configure button to interrupt: P1IE |= BIT3; P1IFG &= ~BIT3; P1IES ^= BIT3; (To flip interrupt to rising or falling edge)
+
+Toggle LEDs: P1OUT ^= BIT6; P1OUT^=BIT0;
+
+### MSP430FR6989 where pins 9.7 and 1.0 are LEDs, pin 1.1 is a button-
+
+Configure LEDs as outputs: P9DIR |= BIT7; P1DIR |= BIT0;  
+
+Start with LEDs off: P1OUT &= !(BIT0); P9OUT &= !(BIT0);
+
+Configure button as input: P1DIR &= ~BIT1; P1REN |= BIT1; P1OUT |= BIT1;
+
+Configure button to interrupt: P1IE |= BIT1; P1IFG &= ~BIT1; P1IES ^= BIT1; (To flip interrupt to rising or falling edge)
+
+Toggle LEDs: P9OUT ^= BIT7; P1OUT^=BIT0;
+
+### MSP430FR5994 where pin 1.1 and 1.0 are LEDs, pin 5.5 is a button-
+
+Configure LEDs as outputs:  P1DIR |= BIT1; P1DIR |= BIT0;  
+
+Start with LEDs off: P1OUT &= !(BIT1 and BIT0);
+
+Configure button as input: P5DIR &= ~BIT5; P5REN |= BIT5; P5OUT |= BIT5;
+
+Configure button to interrupt: P5IE |= BIT6; P5IFG &= ~BIT6; P5IES ^= BIT6; (To flip interrupt to rising or falling edge)
+
+Toggle LEDs: P1OUT ^= BIT1; P1OUT^=BIT0;
+
+### MSP430FR2311 where pin 1.0 and 2.0 are LEDs, pin 1.1 is a button-
+
+Configure LEDs as outputs:  P1DIR |= 0x01; P2DIR |= BIT0; 
+
+Start with LEDs off: P1OUT &= !(BIT0); P2OUT &= !(BIT0);
+
+Configure button as input: P1DIR &= ~BIT1; P1REN |= BIT1; P1OUT |= BIT1;
+
+Configure button to interrupt: P1IE |= BIT1; P1IFG &= ~BIT1; P1IES ^= BIT1; (To flip interrupt to rising or falling edge)
+
+Toggle LEDs: P1OUT ^= 0x01; P2OUT^=BIT0;
+
+### MSP430FR5529 where pin 1.0 and pin 4.7 are LEDs, pin 2.1 is a button-
+Configure LEDs as outputs:  P1DIR |= 0x01;  P4DIR |= BIT7;  
+
+Start with LEDs off: P1OUT &= !(BIT0); P4OUT &= !(BIT7);
+
+Configure button as input: P2DIR &= ~BIT1; P2REN |= BIT1; P2OUT |= BIT1;
+
+Configure button to interrupt: P2IE |= BIT1; P2IFG &= ~BIT1; P2IES ^= BIT1; (To flip interrupt to rising or falling edge)
+
+Toggle LEDs: P1OUT ^= 0x01; P4OUT^=BIT7;
+
+## Extra Work
+Two buttons were implemented on the MSP430FR6989. When the button connected to pin 1.0 is pressed, the red LED is toggled. When the button connected to pin 9.7 is pressed the green LED is toggled. 
+
