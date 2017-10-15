@@ -1,0 +1,1002 @@
+[
+  {
+    "text": "MSP430G2001",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2001&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2101",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2101&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2102",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2102&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2111",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2111&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2112",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2112&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2113",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2113&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2121",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2121&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2131",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2131&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2132",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2132&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2152",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2152&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2153",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2153&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2201",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2201&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2202",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2202&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2203",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2203&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2210",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2210&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2211",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2211&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2212",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2212&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2213",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2213&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2221",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2221&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2230",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2230&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2231",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2231&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2232",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2232&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2233",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2233&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2252",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2252&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2253",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2253&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2302",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2302&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2303",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2303&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2312",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2312&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2313",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2313&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2332",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2332&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2333",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2333&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2352",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2352&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2353",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2353&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2402",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2402&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2403",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2403&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2412",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2412&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2413",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2413&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2432",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2432&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2433",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2433&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2444",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2444&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2452",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2452&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2453",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2453&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2513",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2513&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2533",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2533&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2544",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2544&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2553",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2553&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2744",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2744&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2755",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2755&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2855",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2855&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  },
+  {
+    "text": "MSP430G2955",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.02.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.3.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430G2XX/MSP430G2955&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.3.0::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 14
+  }
+]
