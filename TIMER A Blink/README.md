@@ -75,3 +75,7 @@ Configure LEDs as outputs:  P1DIR |= 0x01;  P4DIR |= BIT7;
 
 Toggle LEDs: P1OUT ^= 0x01; P4OUT^=BIT7;
 
+## References
+
+http://dev.ti.com/tirex/#/Device/MSP430G2553/?link=Software%2FMSP430Ware%2FDevices%2FMSP430G2553%2FPeripheral%20Examples%2FRegister%20Level%2Fmsp430g2xx3_ta_01.c&collapsetree=
+
