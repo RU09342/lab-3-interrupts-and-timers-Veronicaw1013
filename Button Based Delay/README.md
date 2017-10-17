@@ -1,6 +1,6 @@
 # Button Based Delay
 ## Veronica Williams, October 16, 2017, Code Updated: October 16, 2017 
-Microcontroller will initially blink one LED at a rate of 10 Hz. Depending on how long the button is pressed, the microcontroller will set it to the new rate at which the LED blinks.  
+Microcontroller will initially blink one LED at a rate of 10 Hz. Depending on how long the button is pressed, the microcontroller will set the length of that press to the new rate at which the LED blinks.  
 
 
 ## Libraries for the MSP430
