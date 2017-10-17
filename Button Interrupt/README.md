@@ -155,3 +155,7 @@ Toggle LEDs: P1OUT ^= 0x01; P4OUT^=BIT7;
 ## Extra Work
 Two buttons were implemented on the MSP430FR6989. When the button connected to pin 1.0 is pressed, the red LED is toggled. When the button connected to pin 9.7 is pressed the green LED is toggled. 
 
+## References
+
+http://processors.wiki.ti.com/index.php/MSP430_LaunchPad_Drive_LED
+
