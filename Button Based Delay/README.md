@@ -1,4 +1,4 @@
-# Button Based Delay
+,# Button Based Delay
 ## Veronica Williams, October 16, 2017, Code Updated: October 16, 2017 
 Microcontroller will initially blink one LED at a rate of 10 Hz. Depending on how long the button is pressed, the microcontroller will set the length of that press to the new rate at which the LED blinks.  
 
@@ -8,11 +8,21 @@ Msp430.h is a general header file that includes all the header files for boards 
 
 ## General Format
 
-The watchdog timer must be turned off for the five boards, and all of outputs were declared with their proper PxDIR ("0" sets an input and "1" sets an output) values. PxREN (pullup/pulldown resistor enabled) and PxIE (interrupt enable) also had to be used as the button will be used for the interrupts. The inputs and outputs for each board can be seen later. 
+The watchdog timer must be turned off for the five boards, and all of outputs were declared with their proper PxDIR ("0" sets an input and "1" sets an output) values. PxREN (pullup/pulldown resistor enabled) and PxIE (interrupt enable), PxIES ("0" is rising edge, "1" is falling edge), and PxIFG ("0" clears interrupt flag, "1" sets the interrupt) also had to be used as the button will be used for the interrupts. The inputs and outputs for each board can be seen later. 
 
 WDTCTL = WDTPW | WDTHOLD; // Stop watchdog timer
 
-P1DIR =BIT0 + BIT6; // set bits 1.0 and 1.6 as outputs
+P1DIR |= BIT0 + BIT6;   // pins 1.0 and 1.6 are set as outputs
+
+P1REN|= BIT3;   // pullup or pulldown resistor enabled
+
+P1OUT|= BIT3;   // pullup resistor selected
+
+P1IE |= BIT3;   // interrupt enable on port 1.3
+
+P1IES |= BIT3;  // set interrupt to falling edge
+
+P1IFG &= ~BIT3; // clear interrupt flag
 
 For the MSP430FR2311, MSP430FR5994, and MSP430FR6989, the GPIO power-on default high-impedance mode must also be disabled within the main function.
 
@@ -60,7 +70,7 @@ Inside of the interrupt is a if-else statement to determine whether the button i
 
         }
         
-When the button is released, CCR0 is set to the value that timer A1 counted to, thus setting a new value where the interrupt willl occur, and the LED will toggle. The second LED is also turned off to show that the interrupt flag is no longer set. The interrupt is then set back to the falling edge, timer A1 and the interrupt flag are cleared in order to be ready for the next button press. 
+When the button is released, CCR0 is set to the value that timer A1 counted to, thus setting a new value where the timer A0 interrupt will occur, and the LED will toggle. The second LED is also turned off to show that the interrupt flag is no longer set. The interrupt is then set back to the falling edge, timer A1 and the interrupt flag are cleared in order to be ready for the next button press. 
 
 else                // if button is depressed...
 
