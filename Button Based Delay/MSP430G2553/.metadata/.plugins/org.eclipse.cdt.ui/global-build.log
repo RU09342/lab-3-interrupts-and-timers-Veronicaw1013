@@ -359,3 +359,610 @@ remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recomm
 ' '
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 17: error #612: this kind of pragma may not be used here
+"../main.c", line 18: error #68: expected a "}"
+"../main.c", line 44: error #171: expected a declaration
+3 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 19: error #612: this kind of pragma may not be used here
+"../main.c", line 20: error #68: expected a "}"
+"../main.c", line 46: error #171: expected a declaration
+3 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 18: error #612: this kind of pragma may not be used here
+"../main.c", line 19: error #68: expected a "}"
+"../main.c", line 45: error #171: expected a declaration
+3 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'ButtonBasedDelay.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 10: error #20: identifier "TA" is undefined
+"../main.c", line 10: error #20: identifier "CTL" is undefined
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 22: warning #112-D: statement is unreachable
+"../main.c", line 22: warning #121-D: return value type does not match the function type
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 22: warning #112-D: statement is unreachable
+"../main.c", line 22: warning #121-D: return value type does not match the function type
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 47: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 49: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 49: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 49: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 23: error #20: identifier "PDIR" is undefined
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430G2553/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"ButtonBasedDelay.map" --heap_size=80 --stack_size=80 -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=none --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'ButtonBasedDelay.out' is up to date.
+
+**** Build Finished ****

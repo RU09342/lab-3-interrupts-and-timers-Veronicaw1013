@@ -1,0 +1,111 @@
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430FR5594/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 7: error #20: identifier "P5REN" is undefined
+"../main.c", line 8: error #20: identifier "P5OUT" is undefined
+"../main.c", line 9: error #20: identifier "P5IE" is undefined
+"../main.c", line 10: error #20: identifier "P5IES" is undefined
+"../main.c", line 11: error #20: identifier "P5IFG" is undefined
+"../main.c", line 26: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not PORT5_VECTOR
+"../main.c", line 32: error #20: identifier "P5IES" is undefined
+"../main.c", line 60: error #20: identifier "P5IFG" is undefined
+7 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430FR5594/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"ButtonBasedDelay.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/Embedded/ccsv7/ccs_base/msp430/lib/FR59xx" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --priority --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10420-D: For FRAM devices, at start up, the GPIO power-on default high-impedance mode needs to be disabled to activate previously configured port settings. This can be done by clearing the LOCKLPM5 bit in PM5CTL0 register.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430FR5594/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"ButtonBasedDelay.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/Embedded/ccsv7/ccs_base/msp430/lib/FR59xx" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --priority --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ButtonBasedDelay ****
+
+"D:\\Embedded\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Embedded/ccsv7/ccs_base/msp430/include" --include_path="D:/Embedded/Labs/lab-3-interrupts-and-timers-Veronicaw1013/Button Based Delay/MSP430FR5594/ButtonBasedDelay" --include_path="D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: ButtonBasedDelay.out'
+'Invoking: MSP430 Linker'
+"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"ButtonBasedDelay.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/Embedded/ccsv7/ccs_base/msp430/include" -i"D:/Embedded/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/Embedded/ccsv7/ccs_base/msp430/lib/FR59xx" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"D:/Embedded/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --priority --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ButtonBasedDelay_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "ButtonBasedDelay.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+'Finished building target: ButtonBasedDelay.out'
+' '
+
+**** Build Finished ****

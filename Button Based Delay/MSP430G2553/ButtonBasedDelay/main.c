@@ -1,127 +1,64 @@
-#include <msp430.h>
+#include <msp430g2553.h>
 
+void main(void) {
 
-
-unsigned int count, time, button, lastButton, timeStart, timeEnd, overflows = 0;   //Define the integers, which are used later.
-
-unsigned int div = 4;
-
-#define BUTTON BIT3                 //Define "BUTTON" as bit 3
-
-
-
-void main(void)
-
-{
-
-    WDTCTL = WDTPW | WDTHOLD;       // stop watchdog timer
-
-    P1DIR |= 0x41;                  // configure P1.0 and 1.6 as output
-
-
-
-    P1OUT &= ~0x41;                 //Set the initial LED condition to off.
-
-
-
-    P1DIR &= ~BUTTON;               //Set P1.3 (Button) as an input
-
-    P1REN |= BUTTON;                //Enable the pull resistor on P1.3
-
-    P1OUT |= BUTTON;                //Tell the pull resistor to pull up
-
-    P1IE |= BUTTON;                 //Enable interrupt on P1.3
-
-    P1IES |= BUTTON;                //Set the P1.3 interrupt to trigger on a high->low edge.
-
-    P1IFG &= ~BUTTON;               //Clear the interrupt flag register on P1.3
-
-
-
-    CCTL0 = CCIE;                   //Enable interrupts for the first capture/compare register.
-
-    TACTL = TASSEL_2 + MC_2;        //Set the Clock_A control to:
-
-                                    //1. TASSEL_2 which selects SMCLK, the internal 1MHz clock.
-
-                                    //2. MC_2 which selects the continuous counting mode.
-
-
-
-    __enable_interrupt();           //Enable interrupts.
-
-
-
-    __bis_SR_register(LPM0 + GIE);  //Enter low power mode with interrupts.
-
-
+    WDTCTL = WDTPW | WDTHOLD;   //stop watchdog timer
+    P1DIR |= BIT0 + BIT6;   // pins 1.0 and 1.6 are set as outputs
+    P1REN|= BIT3;   // pullup or pulldown resistor enabled
+    P1OUT|= BIT3;   // pullup resistor selected
+    P1IE |= BIT3;   // interrupt enable on port 1.3
+    P1IES |= BIT3;  // set interrupt to falling edge
+    P1IFG &= ~BIT3; // clear interrupt flag
+    TA0CCTL0 = CCIE;    // capture/compare interrupt enabled
+    TA0CCR0 = 3277;     // ACLK 32768/10Hz = about 3277
+    TA0CTL= TASSEL_1+MC_1;  // Set timerA0 to ACLK, up mode
+    __bis_SR_register(LPM0_bits + GIE); // enter LPM0 mode and enable global interrupts
 
 }
 
-
-
-//Interrupt vector service routine for Timer A0.
-
-#pragma vector=TIMER0_A0_VECTOR
-
-__interrupt void Timer_A (void) {
-
-    time = (time + 1) % div;            //Increment 'time' every clock tick and then clock divide it by 'div'
-
-    count++;
-
-    if (time == 0)
-
-        P1OUT ^= 0x41;                  //Toggle the LED whenever time % div == 0.
-
-    if (TAIV == 0x0E)
-
-        overflows++;                    //If the capture/compare register says that the interrupt was caused by an overflow, increment 'overflows'.
-
-}
-
-
-
-#pragma vector=PORT1_VECTOR             //Set the port 1 interrupt routine
-
-__interrupt void Port_1(void) {
-
-    button ^= 1;                        //Toggle the button variable.
-
-    P1IE &= ~BUTTON;                    //Turn off the button interrupt enable.
-
-    __delay_cycles(1);                  //Delay for one clock cycle to debounce the button.
-
-    //FIX THIS DEBOUNCING! Disable the interrupt enable, turn on a timer, have the timer turn itself off and turn on the button enable.
-
-    P1IE |= BUTTON;                     //Turn on the button interrupt enable.
-
-
-
-    if ((button == 1) && (lastButton == 0)){    //If the button has been pressed, this if statement will trigger.
-
-        timeStart = count;                      //Store the current count in 'timeStart'.
-
-        overflows = 0;                          //Reset 'overflows'.
-
+#pragma vector= TIMER0_A0_VECTOR // TimerA0 interrupt
+__interrupt void Timer_A0 (void)
+    {
+        P1OUT ^= BIT0;  // toggle first LED
     }
 
-    else if ((button == 0) && (lastButton == 1)){               //If the button has been depressed, this if statement will trigger.
 
-        timeEnd = count;                                        //Store the current count in 'timeEnd'.
+#pragma vector=PORT1_VECTOR     // button interrupt
 
-        div = ((timeEnd + (overflows * 65536)) - timeStart);    //Update div to be equal to the difference in 'timeEnd' and 'timeStart'...
+    __interrupt void PORT_1(void)
 
-                                                                //...taking into account the amount of overflows that occurred between the two.
+    {
 
-    }
+        if (P1IES & BIT3) // if button is pressed...
 
-    lastButton = button;                //Update 'lastButton' with 'button'.
+        {
+
+            TA1CTL = TASSEL_1 + MC_2;   // timerA1 is set to ACLK, continuous mode
+
+            P1OUT ^= BIT6;              // toggle second LED
+
+            P1IES &= ~BIT3;             // set interrupt to rising edge
+
+        }
+
+        else                // if button is depressed...
+
+        {
+
+            TA0CCR0 = TA1R; // set CCR0 to the value counted in TA1R
+
+            P1OUT &= ~BIT6; // turn off the second LED
+
+            P1IES |= BIT3; // set interrupt to falling edge
+
+            TA1CTL = TACLR; // clear timerA1
+
+        }
 
 
 
-    P1IFG &= ~BUTTON;                   //P1.3 IFG cleared
-
-    P1IES ^= BUTTON;                    //Toggle the interrupt edge so that this interrupt triggers on the button press and release.
+        P1IFG &= ~BIT3; // clear interrupt flag
 
 }
+
+

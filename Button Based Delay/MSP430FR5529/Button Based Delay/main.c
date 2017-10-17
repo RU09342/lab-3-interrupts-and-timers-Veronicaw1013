@@ -1,137 +1,65 @@
-#include <msp430.h> 
-
-
-
 #include <msp430.h>
 
+void main(void) {
 
-
-int buttonPressed;
-
-
-
-void main(void)
-
-{
-
-    WDTCTL = WDTPW | WDTHOLD; //Stop watchdog timer
-
-    P1SEL &= ~BIT0; //select GPIO
-
-    P1DIR |= BIT0; //set Port 1.0 output ---LED
-
-
-
-    P1DIR &= ~(BIT1); //set Port 1.1 input --- pushbutton
-
-    P1REN |= BIT1; //enable pull-up resistor on
-
-    P1OUT |= BIT1;
-
-
-
-
-
-    P1IE |= BIT1; //enable the interrupt on Port 1.1
-
-    P1IES |= BIT1; //set as falling edge
-
-    P1IFG &= ~(BIT1); //clear interrupt flag
-
-
-
-    TA0CTL = TASSEL_1 + MC_1 + ID_1; //Set up Timer A, Count up, and divider 2.
-
-    TA0CCTL0 = 0x10; //Set up compare mode for CCTL
-
-    TA0CCR0 = 6000; // LED will blink at 32kHZ*2/6000 = 10.6 Hz
-
-
-
-    __enable_interrupt(); //enable interrupt
-
-    _BIS_SR(LPM4_bits + GIE); // Enter Low Power Mode 4
+    WDTCTL = WDTPW | WDTHOLD;   //stop watchdog timer
+    P1DIR |= BIT0;
+    P4DIR |= BIT7;  // pins 1.0 and 4.7 are set as outputs
+    P2REN|= BIT1;   // pullup or pulldown resistor enabled
+    P2OUT|= BIT1;   // pullup resistor selected
+    P2IE |= BIT1;   // interrupt enable on port 2.1
+    P2IES |= BIT1;  // set interrupt to falling edge
+    P2IFG &= ~BIT1; // clear interrupt flag
+    TA0CCTL0 = CCIE;    // capture/compare interrupt enabled
+    TA0CCR0 = 3277;     // ACLK 32768/10Hz = about 3277
+    TA0CTL= TASSEL_1+MC_1;  // Set timerA0 to ACLK, up mode
+    __bis_SR_register(LPM0_bits + GIE); // enter LPM0 mode and enable global interrupts
 
 }
 
-
-
-#pragma vector=TIMER0_A0_VECTOR
-
-__interrupt void Timer_A0(void)
-
-{
-
-
-
-    P1OUT ^= 0x01; //Toggle LED
-
-
-
-}
-
-
-
-#pragma vector=PORT1_VECTOR
-
-__interrupt void PORT_1(void)
-
-{
-
-    //Debouncing
-
-    P1IE &= ~BIT1;
-
-    __delay_cycles(1);
-
-
-
-    if (buttonPressed == 0) //Falling-edge of a button
-
+#pragma vector= TIMER0_A0_VECTOR // TimerA0 interrupt
+__interrupt void Timer_A0 (void)
     {
-
-        TA1CTL = TASSEL_1+ MC_3; // Selecting Timer A and Count Up
-
-        TA1CCR0 = 0xFFFF; //Initialize value of TA1CCR0
-
-        TA1CCTL0 = CAP; //Capture mode
-
-        buttonPressed = 1;
-
-        TA0CCR0 = 1; //Reset CCR0
-
-
-
-    }
-
-    else if (buttonPressed == 1) //Rising-edge of a button
-
-    {
-
-        TA1CTL = MC_0; //Stop Counting
-
-        TA0CCR0 = TA1R; //Assgin new value for CCR0
-
-        if (TA0CCR0 > 65500) //Fastest
-
-            TA0CCR0 = 0xFFFF;
-
-        if (TA0CCR0 < 2000) // Slowest
-
-            TA0CCR0 = 2000;
-
-        TA1CTL = TACLR; //Clear Timer A1
-
-        buttonPressed = 0;
-
+        P1OUT ^= BIT0;  // toggle first LED
     }
 
 
+#pragma vector=PORT2_VECTOR     // button interrupt
 
-    P1IES ^= BIT1; //toggle to set as rising edge
+    __interrupt void PORT_2(void)
 
-    P1IE |= BIT1; // Enable interrupt
+    {
 
-    P1IFG &= ~(BIT1); // Clear flag
+        if (P2IES & BIT1) // if button is pressed...
+
+        {
+
+            TA1CTL = TASSEL_1 + MC_2;   // timerA1 is set to ACLK, continuous mode
+
+            P4OUT^= BIT7;              // toggle second LED
+
+            P2IES &= ~BIT1;             // set interrupt to rising edge
+
+        }
+
+        else                // if button is depressed...
+
+        {
+
+            TA0CCR0 = TA1R; // set CCR0 to the value counted in TA1R
+
+            P4OUT &= ~BIT7; // turn off the second LED
+
+            P2IES |= BIT1; // set interrupt to falling edge
+
+            TA1CTL = TACLR; // clear timerA1
+
+        }
+
+
+
+        P2IFG &= ~BIT1; // clear interrupt flag
 
 }
+
+
