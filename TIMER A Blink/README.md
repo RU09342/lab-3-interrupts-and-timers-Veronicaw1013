@@ -1,3 +1,4 @@
+
 # TIMER A Blink
 ## Veronica Williams, October 15, 2017, Code Updated: October 14, 2017 
 Controls the speed of two LEDs blinking with the TIMER module.
@@ -39,9 +40,13 @@ _BIS_SR(LPM0_bits + GIE);
 Once the timer counts up to the value of CCR0 the timer interrupt will be flagged. Inside the interrupt the two LEDs will be toggled. In the case of the MSP430FR2311 the interrupt would change to TIMER0_B0_VECTOR and __interrupt void Timer_B(void)
 
 #pragma vector = TIMER0_A0_VECTOR // timer A interrupt
+
 __interrupt void Timer_A(void)
+
 {
+
     P1OUT^=(BIT0|BIT6); // toggle LEDs
+    
 }
 
 ## Specific Code for Each Board
